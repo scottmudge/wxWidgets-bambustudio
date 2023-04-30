@@ -56,7 +56,7 @@ if(APPLE)
 elseif(WXMSW)
     if(wxUSE_WEBVIEW_EDGE)
         # Update the following variables if updating WebView2 SDK
-        set(WEBVIEW2_VERSION "1.0.705.50")
+        set(WEBVIEW2_VERSION "1.0.1418.22")
         set(WEBVIEW2_URL "https://www.nuget.org/api/v2/package/Microsoft.Web.WebView2/${WEBVIEW2_VERSION}")
         set(WEBVIEW2_SHA256 "6a34bb553e18cfac7297b4031f3eac2558e439f8d16a45945c22945ac404105d")
 
